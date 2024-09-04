@@ -169,8 +169,8 @@ apiVersion: v1 # versão da API do Kubernetes
 kind: Pod # tipo do objeto que estamos criando
 metadata: # metadados do Pod 
   name: giropops # nome do Pod que estamos criando
-labels: # labels do Pod
-  run: giropops # label run com o valor giropops
+  labels: # labels do Pod
+    run: giropops # label run com o valor giropops
 spec: # especificação do Pod
   containers: # containers que estão dentro do Pod
   - name: giropops # nome do container
